@@ -9,15 +9,43 @@ header{
     background-color: aqua;
 }
 
-.container{
+.container-header{
     width: 60%;
     height: 50px;
     margin: 0 auto;
     background-color: yellow;
-    border: solid black 1px;
 }
 
 .flex{
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    height: 100%;
+}
+
+nav.column > section{
+    width: 20%;
+    height: 100%;
+    border: dashed black 1px;
+}
+
+nav.column > aside{
+    width: 80%;
+    height:100%;
+    border: dashed black 1px;
+}
+
+.section-header{
+    height: 500px;
+    background-color: rgb(3, 3, 97);
+}
+
+.container{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(245, 140, 158);
+    border: dashed black 1px;
 }
