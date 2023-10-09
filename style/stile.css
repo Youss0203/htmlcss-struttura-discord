@@ -135,6 +135,7 @@ button{
     height: 1.5rem;
     background-color: pink;
     border: dashed 1px black;
+    padding:.2rem
 }
 
 .section-last{
