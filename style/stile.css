@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    background-color: aqua;
+}
+
+.container{
+    width: 60%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: yellow;
+    border: solid black 1px;
+}
+
+.flex{
+    display: flex;
+    margin: 0 auto;
+}
