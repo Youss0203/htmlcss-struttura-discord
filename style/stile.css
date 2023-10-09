@@ -41,6 +41,7 @@ nav.column > aside{
 .section-header{
     height: 500px;
     background-color: rgb(3, 3, 97);
+    margin-bottom: 5rem;
 }
 
 .container{
@@ -48,4 +49,31 @@ nav.column > aside{
     height: 70%;
     background-color: rgb(245, 140, 158);
     border: dashed black 1px;
+}
+
+
+.contenitore{
+    margin-bottom: 5rem;
+    width: 60%;
+    height: 350px;
+}
+
+div.contenitore > aside{
+    height: 100%;
+    width: 65%;
+    background-color: cornflowerblue;
+    border: dashed black 1px;
+}
+
+div.contenitore > article{
+    height: 100%;
+    width: 35%;
+    background-color: pink;
+    border: dashed black 1px;
+}
+
+.second-section{
+    height: 500px;
+    background-color: rgb(191, 182, 182);
+    margin-bottom: 5rem;
 }
