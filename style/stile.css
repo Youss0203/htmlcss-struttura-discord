@@ -141,3 +141,9 @@ button{
     height: 500px;
     background-color: rgb(41, 40, 40);
 }
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center ;
+}
