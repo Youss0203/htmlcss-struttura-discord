@@ -85,5 +85,59 @@ div.contenitore > article{
     background-color: green;
     border: dashed 1px black;
     height: 700px;
-width: 60%;
+    width: 60%;
+}
+
+.contenitore-footer{
+    width: 60%;
+    height: 450px;
+}
+
+div.contenitore-footer > article{
+    height: 100%;
+    width: 40%;
+    background-color: salmon;
+}
+
+div.contenitore-footer > aside{
+    height: 100%;
+    width:30%;
+    background-color: rgb(25, 112, 111);
+    border: dashed 1px black;
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(41, 40, 40);
+}
+
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-footer{
+    width: 60%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgb(65, 189, 189);
+}
+
+.flex-button{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    height: 1.5rem;
+    background-color: pink;
+    border: dashed 1px black;
+}
+
+.section-last{
+    height: 500px;
+    background-color: rgb(41, 40, 40);
 }
